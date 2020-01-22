@@ -1,9 +1,21 @@
+.hero-image {
+    background-image: url(pictures/burger.jpg);
+    background-color: #aaa;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 800px;
+}
+
 .container1 {
     background-color: blue;
+    float: left;
 }
 
 .container2 {
     background-color: green;
+    float: left;
 }
 
 .col-sm {
@@ -20,4 +32,9 @@
 
 .grid3 {
     border: 1px solid black;
+}
+.burger {
+    width: 1500px;
+    height: 1000px;
+    float: right;
 }
